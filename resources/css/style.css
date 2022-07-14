@@ -134,6 +134,9 @@ hr {
     margin: 10px;
     border-radius: 8px;
 }
+.kpi-card:hover{
+    background: #d3dcdc;
+}
 .kpi-wrapper {
     justify-content: space-evenly;
     flex-wrap: wrap;
