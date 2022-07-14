@@ -136,6 +136,12 @@ hr {
     margin: 10px;
     border-radius: 8px;
 }
+.kpi-card:hover{
+    background: #444;
+    transition:all ease-in-out 1s;
+    cursor: pointer;
+}
+
 .kpi-wrapper {
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -242,6 +248,11 @@ img {
     display: grid;
     grid-template-columns: 3fr 1.3fr;
     grid-template-rows: 1fr 1fr;
+}
+.kpi-small:hover{
+    background: #444;
+    transition:all ease-in-out 1s;
+    cursor: pointer;
 }
 .overview-kpis {
     align-content: space-evenly;

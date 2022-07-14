@@ -97,7 +97,7 @@ hr {
     bottom: 3px;
     background-color: #20222f;
     -webkit-transition: .4s;
-    transition: .4s;
+    transition: 1s;
   }
   
   input:checked + .slider {
@@ -114,6 +114,7 @@ hr {
     -webkit-transform: translateX(32px);
     -ms-transform: translateX(32px);
     transform: translateX(32px);
+   transition: 0.7s all;
     background-color: white;
   }
   
@@ -136,6 +137,8 @@ hr {
 }
 .kpi-card:hover{
     background: #d3dcdc;
+    transition:all ease-in-out 1s;
+    cursor: pointer;
 }
 .kpi-wrapper {
     justify-content: space-evenly;
@@ -241,6 +244,11 @@ img {
     display: grid;
     grid-template-columns: 3fr 1.3fr;
     grid-template-rows: 1fr 1fr;
+}
+.kpi-small:hover{
+    background: #d3dcdc;
+    transition:all ease-in-out 1s;
+    cursor: pointer;
 }
 .overview-kpis {
     align-content: space-evenly;
